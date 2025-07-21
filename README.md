@@ -28,27 +28,27 @@ The algorithm checks each empty cell in the grid and tries numbers from 1 to 9. 
 
 ## How_to_run:
   steps:
-    - Step 1: Download or clone the repository
-    - Step 2: Make sure you have a C++ compiler installed (e.g., g++)
-    - Step 3: Compile the program using the terminal:
-        command: g++ -o sudoku_solver sudoku_solver.cpp
-    - Step 4: Run the compiled program:
-        command: ./sudoku_solver
-    - Step 5: Enter the Sudoku puzzle manually or edit the hardcoded grid in the code
+    - Step 1: Download or clone the repository <br>
+    - Step 2: Make sure you have a C++ compiler installed (e.g., g++) <br>
+    - Step 3: Compile the program using the terminal: <br>
+        command: g++ -o sudoku_solver sudoku_solver.cpp <br>
+    - Step 4: Run the compiled program: <br>
+        command: ./sudoku_solver <br>
+    - Step 5: Enter the Sudoku puzzle manually or edit the hardcoded grid in the code <br>
 
 ## Algorithm_used:
-  name: Backtracking
-  explanation: |
-    - The algorithm tries placing numbers 1 through 9 in each empty cell.
-    - It checks whether placing the number maintains the Sudoku rules:
-        - No repetition in the row
-        - No repetition in the column
-        - No repetition in the 3x3 subgrid
-    - If valid, it proceeds to the next cell recursively.
-    - If no valid number is found, it backtracks to the previous cell and tries a different number.
+  Name: Backtracking <br>
+  Explanation: | <br>
+    - The algorithm tries placing numbers 1 through 9 in each empty cell. <br>
+    - It checks whether placing the number maintains the Sudoku rules: <br>
+        - No repetition in the row <br>
+        - No repetition in the column <br>
+        - No repetition in the 3x3 subgrid <br>
+    - If valid, it proceeds to the next cell recursively. <br>
+    - If no valid number is found, it backtracks to the previous cell and tries a different number. <br>
 
-## Features:
-  - Solves any standard 9x9 Sudoku puzzle
-  - Fast and memory-efficient
-  - Easy to understand and modify
-  - Written in clean, modern C++
+## Features: <br>
+  - Solves any standard 9x9 Sudoku puzzle <br>
+  - Fast and memory-efficient <br>
+  - Easy to understand and modify <br>
+  - Written in clean, modern C++ <br>
