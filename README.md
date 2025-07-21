@@ -24,3 +24,31 @@ The algorithm checks each empty cell in the grid and tries numbers from 1 to 9. 
 0 0 9 3 0 0 0 7 4 <br>
 0 4 0 0 5 0 0 3 6 <br>
 7 0 3 0 1 8 0 0 0 <br>
+
+
+## How_to_run:
+  steps:
+    - Step 1: Download or clone the repository
+    - Step 2: Make sure you have a C++ compiler installed (e.g., g++)
+    - Step 3: Compile the program using the terminal:
+        command: g++ -o sudoku_solver sudoku_solver.cpp
+    - Step 4: Run the compiled program:
+        command: ./sudoku_solver
+    - Step 5: Enter the Sudoku puzzle manually or edit the hardcoded grid in the code
+
+## Algorithm_used:
+  name: Backtracking
+  explanation: |
+    - The algorithm tries placing numbers 1 through 9 in each empty cell.
+    - It checks whether placing the number maintains the Sudoku rules:
+        - No repetition in the row
+        - No repetition in the column
+        - No repetition in the 3x3 subgrid
+    - If valid, it proceeds to the next cell recursively.
+    - If no valid number is found, it backtracks to the previous cell and tries a different number.
+
+## Features:
+  - Solves any standard 9x9 Sudoku puzzle
+  - Fast and memory-efficient
+  - Easy to understand and modify
+  - Written in clean, modern C++
