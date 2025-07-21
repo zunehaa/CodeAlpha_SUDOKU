@@ -38,7 +38,7 @@ The algorithm checks each empty cell in the grid and tries numbers from 1 to 9. 
 
 ## Algorithm_used:
   Name: Backtracking <br>
-  Explanation: | <br>
+  Explanation: <br>
     - The algorithm tries placing numbers 1 through 9 in each empty cell. <br>
     - It checks whether placing the number maintains the Sudoku rules: <br>
         - No repetition in the row <br>
